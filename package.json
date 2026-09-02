@@ -10,5 +10,8 @@
   "devDependencies": {
     "dotenv": "^16.4.5",
     "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4"
   }
 }
