@@ -1,20 +1,14 @@
 {
   "name": "mi_proyecto",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite app",
+    "build": "vite build app"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "dotenv": "^17.4.2",
-    "vite": "^8.2.2"
+    "dotenv": "^16.4.5",
+    "vite": "^5.0.0"
   }
 }

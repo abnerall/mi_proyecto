@@ -1,0 +1,1 @@
+document.getElementById('mensaje').textContent = '¡El servidor y el JavaScript están conectados con éxito!';
