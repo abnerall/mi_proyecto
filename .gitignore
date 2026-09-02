@@ -1,0 +1,17 @@
+
+# Variables de entorno y claves secretas
+.env
+.env.local
+.env.*.local
+
+# Dependencias pesadas instaladas por Node.js
+node_modules/
+
+# Archivos de empaquetado y construcción
+dist/
+build/
+
+# Archivos temporales del sistema operativo o del editor
+.DS_Store
+Thumbs.db
+.vscode/
