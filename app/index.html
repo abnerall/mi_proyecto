@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Proyecto Web</title>
   <link rel="stylesheet" href="./css/styles.css">
+  <!-- Librería de inicio de sesión de Google -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
 
-  <h1>🚀 Servidor Local Activo </h1>
-    <h1>Prueba de conexión con github</h1>
-  <p id="mensaje">Esperando conexión con JavaScript...</p>
+  <h1>🚀 Inicio de Sesión</h1>
+  
+  <!-- Contenedor del botón de Google -->
+  <div id="buttonDiv"></div>
 
-  <!-- Importamos main.js como un módulo -->
+  <!-- Contenedor para mostrar perfil cargado -->
+  <div id="usuarioInfo" style="margin-top: 20px;"></div>
+
   <script type="module" src="./js/main.js"></script>
 </body>
 </html>
